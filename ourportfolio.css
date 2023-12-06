@@ -1,0 +1,150 @@
+
+
+body {
+  font-family: arvo, serif;
+  background: url(https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80) no-repeat center center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+/* Style brand  */
+.logo{
+  height: 30px;
+}
+
+.navbar-inverse{
+  background: rgba(0,0,0,0.5);
+}
+
+.nav li{
+  color: #fff;
+  font-size: 19px;
+  margin-right: 35px;
+  padding: 10px 0;
+  
+}
+
+.nav li:hover{
+  border-bottom: 1px solid #3dd0cd;
+  padding-bottom: 9px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* Style navigation bar */
+
+/* Style jumbotron */
+.jumbotron{
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  letter-spacing: 2.5px;
+}
+
+/* limit the width of icon sections */
+.bodyimage{
+  height: 100px;
+}
+
+.col-md-4{
+  text-align: center;
+  color: #fff;
+}
+
+.container{
+  max-width: 1000px;
+}
+
+.icons p{
+  font-size: 25px;
+}
+
+/* Style icons sections using bootstrap grid system */
+
+/* Style our contact button */
+.contact {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.btn{
+  border: none;
+  border-radius: 10px;
+  /* background: transparent; */
+  background: rgb(61, 208, 205, 0.5);
+  color: #fff;
+  padding: 10px 70px;
+  font-size: 19px;
+  letter-spacing: 1.3px;
+  margin-bottom: 130px;
+}
+
+.btn:hover{
+  background: rgb(0,0,0, 0.5);
+  color: #fff;
+  border: none;
+
+}
+/* Style footerd */
+
+/* .footer p{
+  line-height: 250px;
+} */
+
+.footer{
+  background-color: rgba(0,0,0,0.5);
+  color: grey;
+  font-size: 15px;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* line-height: 250px; */
+}
+
+
+
+
+
+/* use media queries to change size of icons size in smaller devices */
+
+@media (max-width:768px){
+  .bodyimage{
+    height: 70px;
+  }
+}
+
+
+
+
+/* Carousels */
+div.c-wrapper{
+  width: 60%; /* for example */
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+height: 550px;
+margin: auto;
+border-radius: 20px;
+}
+
+
+.carousel-caption{
+  font-size: 20px;
+  color: #3dd0cd;
+  font-weight: bolder;
+}
+
